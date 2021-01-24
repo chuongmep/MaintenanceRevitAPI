@@ -41,66 +41,66 @@ Edit Reference include in {filename}.csproj with Condition Configuration for oth
 <Reference Include="RevitAPI" Condition="'$(Configuration)' == '2015'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2015\RevitAPI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2015'">
+</Reference>
+<Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2015'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2015\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPI" Condition="'$(Configuration)' == '2016'">
+</Reference>
+<Reference Include="RevitAPI" Condition="'$(Configuration)' == '2016'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2016\RevitAPI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2016'">
+</Reference>
+<Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2016'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2016\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPI" Condition="'$(Configuration)' == '2017'">
+</Reference>
+<Reference Include="RevitAPI" Condition="'$(Configuration)' == '2017'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2017\RevitAPI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2017'">
+</Reference>
+<Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2017'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2017\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPI" Condition="'$(Configuration)' == '2018'">
+</Reference>
+<Reference Include="RevitAPI" Condition="'$(Configuration)' == '2018'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2018\RevitAPI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2018'">
+</Reference>
+<Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2018'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2018\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPI" Condition="'$(Configuration)' == '2019'">
+</Reference>
+<Reference Include="RevitAPI" Condition="'$(Configuration)' == '2019'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2019'">
+</Reference>
+<Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2019'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    Reference Include="RevitAPI" Condition="'$(Configuration)' == '2020'">
+</Reference>
+Reference Include="RevitAPI" Condition="'$(Configuration)' == '2020'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2020'">
+</Reference>
+<Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2020'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
-      Reference Include="RevitAPI" Condition="'$(Configuration)' == '2021'">
+Reference Include="RevitAPI" Condition="'$(Configuration)' == '2021'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2021'">
+</Reference>
+<Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2021'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-   Reference Include="RevitAPI" Condition="'$(Configuration)' == '2022'">
+</Reference>
+Reference Include="RevitAPI" Condition="'$(Configuration)' == '2022'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2022\RevitAPI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2019'">
+</Reference>
+<Reference Include="RevitAPIUI" Condition="'$(Configuration)' == '2019'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2022\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
-    </Reference>
+</Reference>
 ```
 
 Step 3 : Try Rebuild Solution or check by see Reference has automatic change when click with a other Configuration.
