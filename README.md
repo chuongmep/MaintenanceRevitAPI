@@ -17,8 +17,8 @@ Add PropertyGroup To {filename}.csproj contain dll re
     <ProjectGuid>{8F2BB60A-09BC-41EC-A013-2AE8BE5BCEC9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HOK.MissionControl</RootNamespace>
-    <AssemblyName>HOK.MissionControl</AssemblyName>
+    <RootNamespace>Demo</RootNamespace>
+    <AssemblyName>$(AssemblyName)</AssemblyName>
     <TargetFrameworkVersion Condition="'$(Configuration)' == '2015'">v4.5.2</TargetFrameworkVersion>
     <TargetFrameworkVersion Condition="'$(Configuration)' == '2016'">v4.5.2</TargetFrameworkVersion>
     <TargetFrameworkVersion Condition="'$(Configuration)' == '2017'">v4.5.2</TargetFrameworkVersion>
