@@ -4,8 +4,11 @@ Sample Maintain Revit plugins for multiple versions.
 Many Thanks  <a href="https://github.com/ksobon/archilab">ksobon</a> has guide for do that,you can donate for her.
 
 Project is a example for Maintain muti version revit addin about revit 2020 and revit 2018, we can use it same problem with version other.
+
 How to use it ? 
+
 Step 1: 
+
 Add PropertyGroup To {filename}.csproj contain dll re
 ``` csproj
 <PropertyGroup>
@@ -27,8 +30,11 @@ Add PropertyGroup To {filename}.csproj contain dll re
     </NuGetPackageImportStamp>
   </PropertyGroup>
 ```
+
 Step 2 : 
+
 Edit Reference include in {filename}.csproj with Condition Configuration for other version
+
 ``` csproj
 <Reference Include="RevitAPI" Condition="'$(Configuration)' == '2015'">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2015\RevitAPI.dll</HintPath>
@@ -71,5 +77,6 @@ Edit Reference include in {filename}.csproj with Condition Configuration for oth
       <Private>False</Private>
     </Reference>
 ```
+
 Step 3 : Try Rebuild Solution or check by see Reference has automatic change when click with a other Configuration.
 
