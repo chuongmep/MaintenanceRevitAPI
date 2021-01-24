@@ -9,7 +9,7 @@ How to use it ?
 
 Step 1: 
 
-Add PropertyGroup To {filename}.csproj contain dll re
+Add PropertyGroup To {filename}.csproj contain dll <a href="https://github.com/chuongmep/MaintenanceRevitAPI/blob/b990ab1e76e359ff5c0497d33c7204bdec2147ed/Demo.csproj#L18-L33">see detail</a>  
 ``` csproj
 <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -33,7 +33,7 @@ Add PropertyGroup To {filename}.csproj contain dll re
 
 Step 2 : 
 
-Edit Reference include in {filename}.csproj with Condition Configuration for other version
+Edit Reference include in {filename}.csproj with Condition Configuration for other version <a href="https://github.com/chuongmep/MaintenanceRevitAPI/blob/b990ab1e76e359ff5c0497d33c7204bdec2147ed/Demo.csproj#L43-L58">see detail</a> 
 
 ``` csproj
 <Reference Include="RevitAPI" Condition="'$(Configuration)' == '2015'">
